@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "1982c8f3-7075-49f1-b090-5699ff7e48a6",
+		"name": "pdf_invoice_generator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23005801"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/invoices"
+			},
+			"response": []
+		},
+		{
+			"name": "show pdf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/invoices/1.pdf"
+			},
+			"response": []
+		}
+	]
+}
